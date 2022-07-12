@@ -28,12 +28,15 @@ that.
 ### For the extension
 You need to include the full path to the flake8 executable that you wish to use.
 
-To find the path to the appropriate flake8 you can _(on *nix)_ do. I'm sure you can do something similar on Windows too.
+To find the path to the appropriate flake8 you can _(on *nix)_ do:
 
 ```bash
 which flake8
 ```
-
+On Windows (PowerShell / command.exe)
+```powershell
+where.exe flake8
+```
 The set it in `Settings.json`
 
 ```json
